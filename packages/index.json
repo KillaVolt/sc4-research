@@ -22,11 +22,67 @@
       "unpackedBytes": 49437432,
       "compressedBytes": 1066820,
       "sha256": "62604f000f0bd9871535bf78f87a706c4bc0b6b8600748f1d5bc6b31bb5ce226"
+    },
+    {
+      "file": "sc4-base-dbpf.7z.001",
+      "files": 22,
+      "unpackedBytes": 883418651,
+      "compressedBytes": 651416966,
+      "sha256": "c8bbf7fcbfac536b8157d99f7a0f1d3adae5c776d2f6b77615329193cde36996"
+    },
+    {
+      "files": 133977,
+      "unpackedBytes": 2862897387,
+      "compressedBytes": 1702248208,
+      "volumes": [
+        {
+          "file": "sc4-base-graphics.7z.001",
+          "bytes": 524288000,
+          "sha256": "2b615f8327f7ff0bc05927f5f3fb89dc7133aaf550edd68c38a655862bfaec5d"
+        },
+        {
+          "file": "sc4-base-graphics.7z.002",
+          "bytes": 524288000,
+          "sha256": "a409f00931ac10a576795de75ca3b6a732be22d49cba1c049bb9651f1f4cb34f"
+        },
+        {
+          "file": "sc4-base-graphics.7z.003",
+          "bytes": 524288000,
+          "sha256": "5b826c540882a9495ca141937c1b938b7b190bd4319b3f041a22990da501765f"
+        },
+        {
+          "file": "sc4-base-graphics.7z.004",
+          "bytes": 129384208,
+          "sha256": "305a6d70ee62d15dc5104182f0bd7404371301a56be536caa0cf68c0198c1d32"
+        }
+      ]
+    },
+    {
+      "file": "sc4-base-audio.7z.001",
+      "files": 4183,
+      "unpackedBytes": 735056304,
+      "compressedBytes": 384488039,
+      "sha256": "3f3b8210905b506304f30d9079b3e03bb2141d856a346209e58b1c34a00134a9"
+    },
+    {
+      "file": "sc4-base-video.7z.001",
+      "files": 14,
+      "unpackedBytes": 165172734,
+      "compressedBytes": 156545882,
+      "sha256": "008195c7391a74967c08eea12a2dcce70d14376474bbcce8863ebca8ba71ac73"
+    },
+    {
+      "file": "sc4-ghidra-state.7z.001",
+      "files": 57,
+      "unpackedBytes": 1330748448,
+      "compressedBytes": 158402249,
+      "sha256": "90846a6f4afe223ca59a07754a25599203ca7c3fbc50550e601c023507860644"
     }
   ],
   "totals": {
-    "files": 107844,
-    "unpackedBytes": 795204503,
-    "compressedBytes": 55844321
+    "files": 246097,
+    "unpackedBytes": 6772498027,
+    "compressedBytes": 3108945665,
+    "lfsBytes": 3053101344
   }
 }

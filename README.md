@@ -26,11 +26,11 @@ There is also a standalone [SC4 HIT bytecode disassembler](scripts/disassemble_h
 
 ## Research packages
 
-The [research packages](packages/README.md) contain decompiler output, complete instruction listings, symbol-guided reference analysis, repair cases, and plaintext base-game scripts. They deliberately omit redundant passes, raw program memory, and generated search caches. Checksums and exact contents are recorded beside the packages.
+The [research packages](packages/README.md) contain decompiler output, complete instruction listings, symbol-guided reference analysis, repair cases, plaintext base-game scripts, DBPF archives, extracted graphics/audio/video, and reopenable Ghidra state. They deliberately omit redundant passes and generated search caches. Checksums and exact contents are recorded beside the packages.
 
 ## What is not included
 
-There are no original game executables, DBPF archives, city files, DLLs, graphics, sound, video, installed mod payloads, third-party repositories, installers, Ghidra program databases, or tool binaries here. Bring your own lawful game copy and download dependencies from their original projects.
+There is no runnable game executable, DLL, city collection, font collection, manual, installer, loose Radio music folder, installed-mod payload, third-party repository, or tool binary here. Download dependencies from their original projects.
 
 This is research material, not recovered original Maxis source and not a buildable replacement game. Function boundaries, pseudocode, cross-build matches, and inferred field meanings need independent review.
 

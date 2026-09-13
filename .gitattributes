@@ -1,0 +1,5 @@
+packages/sc4-base-audio.7z.* filter=lfs diff=lfs merge=lfs -text
+packages/sc4-base-dbpf.7z.* filter=lfs diff=lfs merge=lfs -text
+packages/sc4-base-graphics.7z.* filter=lfs diff=lfs merge=lfs -text
+packages/sc4-base-video.7z.* filter=lfs diff=lfs merge=lfs -text
+packages/sc4-ghidra-state.7z.* filter=lfs diff=lfs merge=lfs -text
