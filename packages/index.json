@@ -1,0 +1,32 @@
+{
+  "format": "7z",
+  "volumesMiB": 1900,
+  "archives": [
+    {
+      "file": "sc4-windows-analysis.7z.001",
+      "files": 36995,
+      "unpackedBytes": 174359595,
+      "compressedBytes": 18260085,
+      "sha256": "72b3d518ff9fb557699971a1fb1070b5817691374f730e6a9fe0764c9b0defad"
+    },
+    {
+      "file": "sc4-mac-symbol-analysis.7z.001",
+      "files": 70684,
+      "unpackedBytes": 571407476,
+      "compressedBytes": 36517416,
+      "sha256": "04e4855c6d6438dd211e9e971fe9e42191927a02a4b7d0975ef90d8d1542a791"
+    },
+    {
+      "file": "sc4-base-scripts.7z.001",
+      "files": 165,
+      "unpackedBytes": 49437432,
+      "compressedBytes": 1066820,
+      "sha256": "62604f000f0bd9871535bf78f87a706c4bc0b6b8600748f1d5bc6b31bb5ce226"
+    }
+  ],
+  "totals": {
+    "files": 107844,
+    "unpackedBytes": 795204503,
+    "compressedBytes": 55844321
+  }
+}

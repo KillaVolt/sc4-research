@@ -1,6 +1,6 @@
 # SimCity 4 reverse-engineering notes
 
-Here's a thing I put together while looking at **SimCity 4 Deluxe 1.1.641.0**. It collects a few reproducible findings, small analysis scripts, and coverage numbers. If any of it saves another developer some time, great.
+Technical notes, reproducible helpers, and derived research material for **SimCity 4 Deluxe 1.1.641.0**. If anything here saves another developer some time, great.
 
 The exact Windows target used for the address-specific notes is the GOG executable with SHA-256:
 
@@ -24,11 +24,14 @@ There is also a standalone [SC4 HIT bytecode disassembler](scripts/disassemble_h
 - Aggregate analysis and resource-coverage numbers.
 - Links to the community projects and format research used as references.
 
+## Research packages
+
+The [research packages](packages/README.md) contain decompiler output, complete instruction listings, symbol-guided reference analysis, repair cases, and plaintext base-game scripts. They deliberately omit redundant passes, raw program memory, and generated search caches. Checksums and exact contents are recorded beside the packages.
+
 ## What is not included
 
-There are no game executables, game assets, installed mods, decompiler dumps, Ghidra projects, third-party repositories, installers, or tool binaries here. Bring your own lawful game copy and download dependencies from their original projects.
+There are no original game executables, DBPF archives, city files, DLLs, graphics, sound, video, installed mod payloads, third-party repositories, installers, Ghidra program databases, or tool binaries here. Bring your own lawful game copy and download dependencies from their original projects.
 
 This is research material, not recovered original Maxis source and not a buildable replacement game. Function boundaries, pseudocode, cross-build matches, and inferred field meanings need independent review.
 
 See [reproduction](docs/reproducing.md), [coverage and limits](docs/coverage.md), and [sources](docs/sources.md).
-
