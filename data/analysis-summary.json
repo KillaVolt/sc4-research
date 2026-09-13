@@ -1,0 +1,39 @@
+{
+  "target": {
+    "product": "SimCity 4 Deluxe",
+    "windowsVersion": "1.1.641.0",
+    "sha256": "3bc5c7fe807fe5aa24a3abb06e40f13486670bc1150612c09baf4ecedafe1a4b",
+    "imageBase": "00400000"
+  },
+  "windowsAnalysis": {
+    "conservative": { "functions": 23601, "successful": 23597, "instructionBytes": 6509711 },
+    "deep": { "functions": 35629, "successful": 35624, "instructionBytes": 6509693 },
+    "repairedFunctions": ["005fc020", "00806fa0"],
+    "remainingFailures": ["006ed6e0", "00775cc0", "0077c660"]
+  },
+  "macReference": {
+    "intelFunctions": 67188,
+    "successful": 67188,
+    "instructionBytes": 8281854,
+    "classGuides": 1735,
+    "methodAddressRecords": 94951
+  },
+  "crossBuildCandidates": {
+    "pairs": 358,
+    "windowsFunctions": 317,
+    "multipleUniqueAnchorPairs": 178
+  },
+  "resources": {
+    "base": 232301,
+    "copiedPlugins": 51338,
+    "decompressedBytes": 3254351675,
+    "rawIntegrityFailures": 0,
+    "remainingSemanticParserFailures": 2049
+  },
+  "claims": {
+    "originalNativeSourceRecovered": false,
+    "verifiedOneToOneRebuild": false,
+    "communityNoveltyEstablished": false
+  }
+}
+
