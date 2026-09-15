@@ -1,4 +1,4 @@
-# SimCity 4 reverse-engineering notes
+# SimCity 4 Deluxe GOG Decompiled
 
 Technical notes, reproducible helpers, and derived research material for **SimCity 4 Deluxe 1.1.641.0**. If anything here saves another developer some time, great.
 
